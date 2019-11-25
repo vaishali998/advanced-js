@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Functions</title>
+    </head>
+<body>
+
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+//SELF INVOKING FUNCTION
+// (function () {
+//   document.getElementById("demo").innerHTML = "Hello! Self invoked function";
+// })();
+// //ANONYMOUS FUNCTION
+// var x = function (a, b) {return a * b};
+// var z = x(4, 3);
+// console.log(z);
+// //CONSTRUCTOR FUNCTION
+// var myFunction = new Function("a", "b", "return a * b");
+// var x = myFunction(4, 3);
+// console.log(x);
+//ARROW FUNCTION
+const x = (x, y) => x * y;
+document.getElementById("demo1").innerHTML = x(5, 5);
+ </script>
+
+</body>
+</html>
